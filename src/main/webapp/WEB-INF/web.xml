@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+    <servlet><!--servlet主要部分-->
+        <servlet-name>TblstuValidat</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.stud.TblstuValidat</servlet-class>
+    </servlet>
+
+    <servlet-mapping><!--servlet的映射-->
+        <servlet-name>TblstuValidat</servlet-name>
+        <url-pattern>/tblstuval</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TblstuAjax</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.stud.TblstuAjax</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TblstuAjax</servlet-name>
+        <url-pattern>/tblstuajax</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TblstuDelete</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.stud.TblstuDelete</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TblstuDelete</servlet-name>
+        <url-pattern>/tblstudele</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TblstuUpdate</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.stud.TblstuUpdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TblstuUpdate</servlet-name>
+        <url-pattern>/tblstuupd</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>TblstuAdd</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.stud.TblstuAdd</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TblstuAdd</servlet-name>
+        <url-pattern>/tblstuadd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TblteaAdd</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.teac.TblteaAdd</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>TblteaAdd</servlet-name>
+        <url-pattern>/tblteaadd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TblteaUpdate</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.teac.TblteaUpdate</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>TblteaUpdate</servlet-name>
+        <url-pattern>/tblteaupd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TblteaDelete</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.teac.TblteaDelete</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>TblteaDelete</servlet-name>
+        <url-pattern>/tblteadele</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>TblteaValidat</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.teac.TblteaValidat</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TblteaValidat</servlet-name>
+        <url-pattern>/tblteaval</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TblscoAdd</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.score.TblscoAdd</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>TblscoAdd</servlet-name>
+        <url-pattern>/tblscoadd</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>TblscoValidat</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.score.TblscoValidat</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TblscoValidat</servlet-name>
+        <url-pattern>/tblscoval</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TblcourAdd</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.course.TblcourAdd</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>TblcourAdd</servlet-name>
+        <url-pattern>/tblcouradd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TblscoDelete</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.score.TblscoDelete</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>TblscoDelete</servlet-name>
+        <url-pattern>/tblscodele</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TblcourDelete</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.course.TblcourDelete</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TblcourDelete</servlet-name>
+        <url-pattern>/tblcourdele</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TblscoUpdate</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.score.TblscoUpdate</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TblscoUpdate</servlet-name>
+        <url-pattern>/tblscoupd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TblcourUpdate</servlet-name>
+        <servlet-class>com.qinguangfeng827.web.course.TblcourUpdate</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TblcourUpdate</servlet-name>
+        <url-pattern>/tblcourupd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Hobby_Serv</servlet-name>
+        <servlet-class>com.Hobby_Serv</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>Hobby_Serv</servlet-name>
+        <url-pattern>/myhobby</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Job_Sess_Resq</servlet-name>
+        <servlet-class>com.Job_Sess_Resq</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Job_Sess_Resq</servlet-name>
+        <url-pattern>/job_sess_resq</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Job_Session</servlet-name>
+        <servlet-class>com.Job_Session</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Job_Session</servlet-name>
+        <url-pattern>/job_session</url-pattern>
+    </servlet-mapping>
+</web-app>
